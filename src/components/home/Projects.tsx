@@ -40,7 +40,7 @@ const Projects: React.FC = () => {
             duration='(In development)'
             description="Developing a web application to display paintings." 
             imageUrl={bbPic}
-            githubLink="https://github.com/anushaananad/brazenbrushes"
+            // githubLink="https://github.com/anushaananad/brazenbrushes"
             skills={['Material UI', 'React']}
           />
         </Grid>
