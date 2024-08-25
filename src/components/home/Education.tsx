@@ -6,7 +6,7 @@ import Skills from './Skills';
 const education = [
   {
     institution: 'University of Texas at Arlington',
-    degree: 'Master of Science',
+    degree: 'Master of Science - Computer Science',
     duration: 'Aug 2022 - May 2024',
     cgpa: '4.0/4',
     courses: [
@@ -26,7 +26,7 @@ const education = [
   },
   {
     institution: 'Sikkim Manipal Institute of Technology',
-    degree: 'Bachelor of Technology',
+    degree: 'Bachelor of Technology - Computer Science & Engineering',
     duration: 'Aug 2016 - July 2020',
     cgpa: '9.25/10',
     courses: [

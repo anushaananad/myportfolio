@@ -53,11 +53,11 @@ const Skills: React.FC = () => {
       sx={{ 
         padding: '20px 0',
         backgroundColor: 'white',
-        color: 'rgba(30, 33, 31, 1)'
+        color: 'rgba(30, 33, 31, 1)',
       }}
     >
       {Object.keys(skillsByCategory).map((category) => (
-        <Box key={category} sx={{ marginBottom: 5 }}>
+        <Box key={category}>
           <Typography variant="h5" sx={{ marginBottom: 2 }}>
             {category}
           </Typography>
