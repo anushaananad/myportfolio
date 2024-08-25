@@ -62,7 +62,6 @@ const Projects: React.FC = () => {
             duration='The University of Texas at Arlington (October 2023)'
             description="Developed a photo-album web application that leverages cloud storage to manage and display photographs. Users can upload, delete, and browse their photo collections."
             imageUrl={googleCSPic}
-            // githubLink="https://github.com/yourusername/project-three"
             skills={['JSON', 'Google Cloud Platform', 'PHP']}
           />
         </Grid>
@@ -72,7 +71,6 @@ const Projects: React.FC = () => {
             duration='The University of Texas at Arlington (September 2023)'
             description="Displays real-time weather information using a map interface."
             imageUrl={gmapsPic}
-            // githubLink="https://github.com/yourusername/project-three"
             skills={['HTML', 'AJAX', 'JavaScript']}
           />
         </Grid>
@@ -83,7 +81,6 @@ const Projects: React.FC = () => {
             description="Implemented a Python program solving the Expense 8 puzzle problem, supporting multiple search methods (BFS, UCS, DFS, DLS, IDS, Greedy, A*). The results include search details, solution depth, and a
             step-by-step sequence of moves."
             imageUrl={expense8Pic}
-            // githubLink="https://github.com/yourusername/project-three"
             skills={['Python', 'Artificial Intelligence']}
           />
         </Grid>

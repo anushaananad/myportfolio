@@ -3,7 +3,6 @@ import { Container, Typography, Box, IconButton, Card, CardContent, Link, Toolti
 import { GitHub as GitHubIcon, LinkedIn as LinkedInIcon, Mail as MailIcon } from '@mui/icons-material';
 import { styled } from '@mui/system';
 import profilePic from '../constant/profilepic.jpg';
-// import resumePdf from '../constant/resume.pdf'
 
 const ProfilePicture = styled('img')({
   borderRadius: '50%',
@@ -56,9 +55,6 @@ const Contact: React.FC = () => {
                   resumé
                 </Link> for more details on my experience and skills.  */}
               </Typography>
-              {/* <Typography variant="body1">
-              I’m always excited about new opportunities and would love to hear about your project.
-              </Typography> */}
               </CardContent>
           </Card>
           <Card>

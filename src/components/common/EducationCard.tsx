@@ -19,7 +19,6 @@ const EducationCard: React.FC<EducationCardProps> = ({ institution, degree, dura
             {institution}
           </Typography>
           <Typography variant="body1" color="textSecondary">{degree} | CGPA: {cgpa} | {duration}  </Typography>
-          {/* <Typography variant="body1" color="textSecondary">({duration}) | CGPA: {cgpa}</Typography> */}
         </Box>
       </AccordionSummary>
       <AccordionDetails>

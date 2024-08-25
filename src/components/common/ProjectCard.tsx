@@ -14,16 +14,6 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, duration, imageUrl, githubLink, skills = [], keywords = []}) => {
   return (
-    // <Paper
-    //   elevation={3}
-    //   sx={{
-    //     transition: 'transform 0.3s, box-shadow 0.3s',
-    //     '&:hover': {
-    //       transform: 'translateY(-5px)',
-    //       boxShadow: '0 6px 18px rgba(0, 0, 0, 0.2)',
-    //     },
-    //   }}
-    // >
       <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
         <Box
           sx={{
@@ -87,7 +77,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, duration,
           </Box>
         </CardContent>
       </Card>
-    // </Paper>
   );
 };
 
