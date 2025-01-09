@@ -22,8 +22,7 @@ const experiences = [
     company: 'The University of Texas at Arlington',
     duration: 'August 2024 - Present',
     responsibilities: [
-      'Contribute to grant-related research projects aimed at improving educational outcomes.',
-      'Conduct research, analyze data, and develop insights to inform educational practices.',
+      'Supported grant-funded research projects by conducting data analysis and delivering actionable insights to improve educational practices.',
     ],
   },
   {
@@ -31,10 +30,12 @@ const experiences = [
     company: 'iHeartMedia',
     duration: 'June 2024 - August 2024',
     responsibilities: [
-        'Engineered a fault-tolerant, event-driven Lambda function with AWS CDK, S3, SNS, SQS, and GitHub Actions for Boomi, automating and streamlining process scheduling.',
-        'Secured API endpoints by developing a Lambda API authorizer with API Gateway, incorporating policy management and domain validation.',
-        'Created a dynamic CRUD page using Typescript, React and Material UI, featuring real-time data fetching, advanced filtering, and nested checkbox selection.',
-        'Contributed to Agile development, actively participating in daily stand-ups and sprint planning.',
+      'Developed serverless solutions using AWS (Lambda, S3, SQS) and automated processes with GitHub Actions. ',
+      'Built secure API gateways and dynamic React-based interfaces for real-time data management.',
+        // 'Engineered a fault-tolerant, event-driven Lambda function with AWS CDK, S3, SNS, SQS, and GitHub Actions for Boomi, automating and streamlining process scheduling.',
+        // 'Secured API endpoints by developing a Lambda API authorizer with API Gateway, incorporating policy management and domain validation.',
+        // 'Created a dynamic CRUD page using Typescript, React and Material UI, featuring real-time data fetching, advanced filtering, and nested checkbox selection.',
+        // 'Contributed to Agile development, actively participating in daily stand-ups and sprint planning.',
     ],
   },
   {
@@ -42,10 +43,11 @@ const experiences = [
     company: 'The University of Texas at Arlington',
     duration: 'Sept 2022 - May 2024',
     responsibilities: [
-        'Supported 11 Project MMS scholars by providing academic and administrative assistance.',
-        'Assisted in managing 4 Special Education courses, contributing to course administration.',
-        'Conducted research and data analysis on 50+ articles, delivering insights that informed academic and research activities.',
-        'Secured 2 research funding opportunities through successful grant applications.',
+      'Provided academic support to scholars, managed course administration, analyzed 50+ research articles, and secured research funding through grant proposals.',
+        // 'Supported 11 Project MMS scholars by providing academic and administrative assistance.',
+        // 'Assisted in managing 4 Special Education courses, contributing to course administration.',
+        // 'Conducted research and data analysis on 50+ articles, delivering insights that informed academic and research activities.',
+        // 'Secured 2 research funding opportunities through successful grant applications.',
     ],
   },
   {
@@ -53,9 +55,9 @@ const experiences = [
     company: 'Nomura Research Institute Financial Technologies India Pvt. Ltd.',
     duration: 'April 2022 - July 2022',
     responsibilities: [
-        'Led a client-facing project involving requirement gathering and analysis, developed a Java command-line batch to meet new requirements and enhancing reporting.',
-        'Performed downstream processing analysis and generated bi-weekly client reports.',
-        'Selected for an onsite project in Japan, showcasing technical and project management skills.',
+        'Led client-facing projects to develop Java-based reporting tools and automated workflows.',
+        'Generated bi-weekly client reports and delivered solutions for downstream processing.',
+        'Selected for an onsite project in Japan, demonstrating leadership and technical expertise.',
     ],
   },
   {
@@ -64,7 +66,7 @@ const experiences = [
     duration: 'August 2020 - March 2022',
     responsibilities: [
         'Developed and maintained Java-based command-line batches using Spring Framework and Oracle databases.',
-        'Designed a dynamic grid-based query results page with HTML and JavaScript for efficient data display.',
+        'Designed dynamic grid-based query results interface with HTML and JavaScript for efficient data display.',
         'Authored and executed use cases and test cases, ensuring robust testing and seamless sprint deployments.',
         'Optimized automation workflows with Shell scripting and Jenkins pipelines for batch execution.',
         'Delivered end-to-end software solutions, from documentation and design to development, SQL queries, testing, and deployment.',
@@ -72,7 +74,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Intern',
+    title: 'Software Engineer Intern',
     company: 'Nomura Research Institute Financial Technologies India Pvt. Ltd.',
     duration: 'January 2020 - March 2020',
     responsibilities: [

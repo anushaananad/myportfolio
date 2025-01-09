@@ -8,6 +8,7 @@ import skinLesionPic from '../constant/projects/skinLesion.png'
 import transCoordPic from '../constant/projects/transCoord2pc.png'
 import gmapsPic from '../constant/projects/GoogleMapsApi.png'
 import googleCSPic from '../constant/projects/GoogleCloudStorage.png'
+import ytQueryAssistantPic from '../constant/projects/YTQueryAssistant.png'
 
 const Projects: React.FC = () => {
   return (
@@ -36,6 +37,16 @@ const Projects: React.FC = () => {
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={4}>
           <ProjectCard
+            title="YouTube Video Query Assistant"
+            duration='(November 2024 - Present)'
+            description="Built an interactive YouTube video query system using LangChain, which processes video transcripts with OpenAI Embeddings stored in a vector database. Enhanced querying capabilities with recursive search and error handling. " 
+            imageUrl={ytQueryAssistantPic}
+            // githubLink="https://github.com/anushaananad/brazenbrushes"
+            skills={['Langchain', 'OpenAI Embeddings', 'Vector Databases', 'Streamlit']}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard
             title="BrazenBrushes: Artwork Display Web Application"
             duration='(In development)'
             description="Developing a web application to display paintings." 
@@ -46,9 +57,9 @@ const Projects: React.FC = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <ProjectCard
-            title="Fault-Tolerant 2-Phase Commit Protocol in a Distributed Transaction System"
+            title="Resilient Transaction Management System with 2-Phase Commit"
             duration='The University of Texas at Arlington (2024)'
-            description="Developed a fault-tolerant 2-phase commit (2PC) protocol to manage distributed transactions and handle node crashes efficiently."
+            description="Developed a fault-tolerant distributed transaction system using Python and socket communication to ensure data consistency and reliability during network failures. "
             imageUrl={transCoordPic}
             githubLink="https://github.com/anushaananad/2PC-FaultTolerant"
             keywords={['Distributed System', 'Fault-Tolerance', '2PC Protocol',]}

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { AppBar, Box, Button, Container, IconButton, Link, Menu, MenuItem, Toolbar, Tooltip, Typography  } from '@mui/material';
 import { EmailSharp as MailIcon, Face3 as Face3Icon, Menu as MenuIcon, DownloadForOffline as DownloadForOfflineIcon } from '@mui/icons-material';
 
-const pages: string[] = ['About', 'Education', 'Skills', 'Experience', 'Projects', 'Contact'];
+const pages: string[] = ['About', 'Education', 'Skills', 'Experience', 'Projects', 'Certifications', 'Contact'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);

@@ -7,7 +7,7 @@ import Contact from './components/home/Contact';
 import WorkExperience from './components/home/Experience';
 import Footer from './components/layout/Footer';
 import { useEffect } from 'react';
-
+import Certifications from './components/home/Certification';
 function App () {
   useEffect(() => {
     
@@ -31,6 +31,7 @@ function App () {
       <Background />
       <WorkExperience />
       <Projects />
+      <Certifications />
       <Contact />
       <Footer />
     </div>
