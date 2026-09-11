@@ -5,6 +5,13 @@ import googleIcon from '../constant/certifications/google.png';
 
 const certifications = [
   {
+    title: "AWS Certified Machine Learning Engineer – Associate",
+    issuer: "Amazon Web Services",
+    date: "October 2025",
+    icon: awsIcon,
+    verifyLink: "https://www.credly.com/badges/6b8efc58-d355-4087-9e12-bf3949fd0ed7", // Replace with actual link
+  },
+  {
     title: "AWS Certified Solutions Architect – Associate",
     issuer: "Amazon Web Services",
     date: "December 2024",

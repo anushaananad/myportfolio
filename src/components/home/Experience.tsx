@@ -18,11 +18,23 @@ const getRandomColor = () => {
 
 const experiences = [
   {
+    title: 'Sr. Software Engineer',
+    company: 'Citigroup | Tech Mahindra Americas Inc.',
+    duration: 'February 2025 - Present',
+    responsibilities: [
+      'Architected distributed PySpark pipelines using Apache Spark and Kafka to process 10M+ Citigroup financial records daily, cutting manual validation overhead by 35%.',
+      'Engineered a Python-based ML test-generation system that mined historical failure logs to produce targeted test cases, increasing QA coverage by 40% above baseline.',
+      'Implemented an AI-driven data quality framework with anomaly detection and rule-based flagging across 5+ enterprise workflows, reducing data-defect escape rates by 28%.',
+      'Established end-to-end observability through AWS CloudWatch dashboards and alerting, reducing mean time to detect failures from hours to under 10 minutes.',
+      'Led 3+ concurrent Citigroup projects from planning through delivery; earned engineering excellence recognition and a Star Award nomination.',
+    ],
+  },
+  {
     title: 'Student Volunteer',
     company: 'The University of Texas at Arlington',
-    duration: 'August 2024 - Present',
+    duration: 'August 2024 - February 2025',
     responsibilities: [
-      'Supported grant-funded research projects by conducting data analysis and delivering actionable insights to improve educational practices.',
+      'Developed PHP/Laravel dashboards and analytical reports to help educators monitor student progress and academic outcomes.',
     ],
   },
   {
@@ -30,12 +42,9 @@ const experiences = [
     company: 'iHeartMedia',
     duration: 'June 2024 - August 2024',
     responsibilities: [
-      'Developed serverless solutions using AWS (Lambda, S3, SQS) and automated processes with GitHub Actions. ',
-      'Built secure API gateways and dynamic React-based interfaces for real-time data management.',
-        // 'Engineered a fault-tolerant, event-driven Lambda function with AWS CDK, S3, SNS, SQS, and GitHub Actions for Boomi, automating and streamlining process scheduling.',
-        // 'Secured API endpoints by developing a Lambda API authorizer with API Gateway, incorporating policy management and domain validation.',
-        // 'Created a dynamic CRUD page using Typescript, React and Material UI, featuring real-time data fetching, advanced filtering, and nested checkbox selection.',
-        // 'Contributed to Agile development, actively participating in daily stand-ups and sprint planning.',
+      'Designed and deployed an AWS CDK serverless scheduling solution using Lambda, API Gateway, S3, SNS, and SQS, automating 20+ Boomi workflows.',
+      'Secured 8+ API Gateway endpoints with custom AWS Lambda authorizers and JWT-based access control.',
+      'Built React.js operational dashboards with advanced filtering and 6 real-time metrics across 5,000+ records.',
     ],
   },
   {
@@ -51,7 +60,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Associate Software Engineer Grade-I Level-II',
+    title: 'Associate Software Engineer II',
     company: 'Nomura Research Institute Financial Technologies India Pvt. Ltd.',
     duration: 'April 2022 - July 2022',
     responsibilities: [
@@ -61,7 +70,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Associate Software Engineer Grade-I Level-I',
+    title: 'Associate Software Engineer I',
     company: 'Nomura Research Institute Financial Technologies India Pvt. Ltd.',
     duration: 'August 2020 - March 2022',
     responsibilities: [

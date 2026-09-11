@@ -9,6 +9,7 @@ import transCoordPic from '../constant/projects/transCoord2pc.png'
 import gmapsPic from '../constant/projects/GoogleMapsApi.png'
 import googleCSPic from '../constant/projects/GoogleCloudStorage.png'
 import ytQueryAssistantPic from '../constant/projects/YTQueryAssistant.png'
+import dishLensPic from '../constant/projects/DishLens.png'
 
 const Projects: React.FC = () => {
   return (
@@ -35,6 +36,16 @@ const Projects: React.FC = () => {
           marginBottom: '25px'
         }} />
       <Grid container spacing={4}>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard
+            title="DishLens: AI Recipe Finder"
+            duration="(April 2026 - June 2026)"
+            description="Zero-login food recognition app covering 101 dish types. React/Vite frontend, FastAPI backend on Hugging Face Spaces. Uses Gemini 2.0 Flash for image classification with CLIP as fallback, surfacing macros and recipes via Spoonacular."
+            imageUrl={dishLensPic}
+            githubLink="https://anushaananad.github.io/dishlens/"
+            skills={['React', 'Vite', 'FastAPI', 'Gemini 2.0 Flash', 'CLIP', 'Docker']}
+          />
+        </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <ProjectCard
             title="YouTube Video Query Assistant"

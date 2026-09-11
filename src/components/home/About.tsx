@@ -1,15 +1,6 @@
 import React from 'react';
 import { Container, Typography, Box } from '@mui/material';
-import CodeSharpIcon from '@mui/icons-material/CodeSharp';
 import { styled } from '@mui/system';
-
-const ProfilePicture = styled('img')({
-  borderRadius: '50%',
-  width: '150px',
-  height: '150px',
-  objectFit: 'cover',
-  marginRight: '20px',
-});
 
 const About: React.FC = () => {
   return (
@@ -29,23 +20,23 @@ const About: React.FC = () => {
         <Box>
           <Box component="ul" sx={{ pl: 2, mb: 0, listStyleType: 'disc', mr: 5, ml: 5, mt: 2}}>
             <Typography component="li" variant="body1" paragraph sx={{ textAlign: 'justify', mb: 2, paddingLeft: '25px' }}>
-            I'm a Software Engineer specializing in full-stack development, based in Dallas, Texas.
-            </Typography>
-            
-            <Typography component="li" variant="body1" paragraph sx={{ textAlign: 'justify', mb: 2, paddingLeft: '25px'  }}>
-            I craft and maintain robust web applications using React and Spring, with a strong command of Python, AWS, and Jenkins.            
+              I'm an AWS Certified Data and ML Engineer with 4+ years of experience building distributed data pipelines, AI-integrated applications, and enterprise systems, currently based in the Dallas-Fort Worth area.
             </Typography>
 
             <Typography component="li" variant="body1" paragraph sx={{ textAlign: 'justify', mb: 2, paddingLeft: '25px'  }}>
-            I love solving complex problems, optimizing systems, and enhancing user experiences. 
+              At Tech Mahindra, I architect distributed PySpark and Kafka pipelines that process 10M+ financial records daily for Citigroup, and build AI-driven data quality frameworks that catch defects before they reach production.
             </Typography>
 
             <Typography component="li" variant="body1" paragraph sx={{ textAlign: 'justify', mb: 2, paddingLeft: '25px'  }}>
-            I value teamwork and effective communication, actively participating in Agile processes and code reviews.
+              I care about scalable ETL design, event-driven architectures, and applied GenAI tooling, and I like measuring my work in concrete outcomes: faster releases, cleaner data, fewer defects escaping to production.
             </Typography>
 
             <Typography component="li" variant="body1" paragraph sx={{ textAlign: 'justify', mb: 2, paddingLeft: '25px'  }}>
-            In my free time, I like to read mystery books, doodle, or go biking.
+              Outside of enterprise work, I build my own AI-powered projects, from a food-recognition app to semantic search over video transcripts, to keep exploring the ML and GenAI space hands-on.
+            </Typography>
+
+            <Typography component="li" variant="body1" paragraph sx={{ textAlign: 'justify', mb: 2, paddingLeft: '25px'  }}>
+              I hold an MS in Computer Science (4.0 GPA) from UT Arlington, and I value teamwork, clear communication, and rigorous code review as much as I value clean architecture.
             </Typography>
           </Box>
         </Box>
