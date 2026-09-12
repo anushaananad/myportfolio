@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Box, IconButton, Card, CardContent, Link, Tooltip } from '@mui/material';
+import { Container, Typography, Box, IconButton, Card, CardContent, Tooltip } from '@mui/material';
 import { GitHub as GitHubIcon, LinkedIn as LinkedInIcon, Mail as MailIcon } from '@mui/icons-material';
 import { styled } from '@mui/system';
 import profilePic from '../constant/profilepic.jpg';

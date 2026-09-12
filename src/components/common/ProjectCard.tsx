@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, CardContent, IconButton, Paper, Typography, Chip } from '@mui/material';
+import { Box, Card, CardContent, IconButton, Typography, Chip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 interface ProjectCardProps {
