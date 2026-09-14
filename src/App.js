@@ -8,6 +8,8 @@ import WorkExperience from './components/home/Experience';
 import Footer from './components/layout/Footer';
 import { useEffect } from 'react';
 import Certifications from './components/home/Certification';
+import Chicken from './components/home/Chicken';
+
 function App () {
   useEffect(() => {
     
@@ -27,6 +29,7 @@ function App () {
 
       <ResponsiveAppBar />
       <Header />
+      <Chicken />
       <About />
       <Background />
       <WorkExperience />

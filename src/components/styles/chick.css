@@ -1,0 +1,54 @@
+/* Container styling */
+.container {
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Chick gif styling */
+.chick {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 120px;
+  height: auto;
+  z-index: 1000;
+  animation: moveChick 12s linear infinite;
+}
+
+@keyframes moveChick {
+  /* Moving right with normal orientation */
+  0% {
+    left: 0;
+    transform: translateY(-50%) scaleX(1);
+  }
+  49.9% {
+    left: 35%;  /* Move to center of screen */
+    transform: translateY(-50%) scaleX(1);
+  }
+  
+  /* Instant flip at center */
+  50% {
+    left: 35%;  /* Stay at center */
+    transform: translateY(-50%) scaleX(-1);
+  }
+  
+  /* Moving left while maintaining flipped orientation */
+  50.1%, 99.9% {
+    transform: translateY(-50%) scaleX(-1);
+  }
+  50.1% {
+    left: 35%;  /* Start moving from center */
+  }
+  99.9% {
+    left: 0;
+  }
+  
+  /* Instant flip at left edge */
+  100% {
+    left: 0;
+    transform: translateY(-50%) scaleX(1);
+  }
+}
